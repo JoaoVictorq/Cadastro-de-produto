@@ -91,28 +91,3 @@ formulario.pushButton.clicked.connect(gerar_pdf)
 
 formulario.show()
 app.exec()
-
-
-
-# criando a tabela
-
-# create table produtos (
-#     id INT NOT NULL AUTO_INCREMENT,
-#     codigo INT,
-#     descricao VARCHAR(50),
-#     preco DOUBLE,
-#     categoria VARCHAR(20),
-#     PRIMARY KEY (id)
-# );
-#banco = mysql.connector.connect(
-#     # host="locahost",
-#     # user="root",
-#     # passwd="",
-#     # database="controle"
-# )
-# #Inserindo registro na tabela
-  
-
-# INSERT INTO produtos(codigo,descricao,preco,categoria) VALUES (123,"impressora",500.00,"informatica");
-
-#verificando a tabela select * from produtos;
